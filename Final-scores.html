@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/css/styles.css" />
+    <title>Scores</title>
+
+
+</head>
+
+<body class="container">
+    <div class="formScore listscores">
+        <h1>Highscores</h1>
+        <ol id="high"></ol>
+
+        <a href="./index.html"><button>Back</button></a>
+        <button id="clear">Clear Highscores</button>
+    </div>
+    <div id="score-form" class="hide">
+        <h3> All done! </h3>
+        <p>Your final score is <span id="score"></span></p>
+        <label>Enter initials: </label>
+        <input type="initials" name="initials" id="initials" placeholder="" />
+        <button id="submit" class="btn">Submit</button>
+    </div>
+    
+
+    <script src="./Assets/js/Topscores.js"></script>
+</body>
+
+</html>
